@@ -1,0 +1,25 @@
+{
+    "name": "robertzibert/linkspider",
+    "description": "link web spider",
+    "require": {
+        "illuminate/database": "^5.2",
+        "league/climate": "^3.2",
+        "sunra/php-simple-html-dom-parser": "^1.5"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Robert Zibert",
+            "email": "robert_zibert@hotmail.com"
+        }
+    ],
+    "autoload": {
+      "classmap":[
+        "models",
+        "commands"
+      ],
+      "psr-4": {
+        "robertzibert\\linkSpider\\" : "src"
+      }
+    }
+}
