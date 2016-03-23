@@ -9,9 +9,8 @@ $climate->extend('Highlight');
 
 $climate->arguments->add([
     'user' => [
-        'prefix'       => 'u',
-        'longPrefix'   => 'user',
-        'description'  => 'Username',
+        'prefix'       => 'url',
+        'description'  => 'Url to parse',
     ],
 		'iterations' => [
 			 'prefix'      => 'i',
